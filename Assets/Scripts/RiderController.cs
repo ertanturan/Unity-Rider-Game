@@ -23,5 +23,11 @@ public class RiderController : MonoBehaviour
                 , ForceMode2D.Force);
         }
 
+        if (Input.GetKey(KeyCode.LeftArrow))
+        {
+            _rb.velocity = Vector2.zero;
+            //_rb.angularVelocity = Mathf.Lerp(_rb.angularVelocity, 0f, .5f * Time.fixedDeltaTime);
+        }
+
     }
 }
