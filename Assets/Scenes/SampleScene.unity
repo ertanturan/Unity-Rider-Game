@@ -607,6 +607,7 @@ GameObject:
   - component: {fileID: 771268140}
   - component: {fileID: 771268139}
   - component: {fileID: 771268142}
+  - component: {fileID: 771268143}
   m_Layer: 0
   m_Name: Rider
   m_TagString: Untagged
@@ -623,7 +624,7 @@ PolygonCollider2D:
   m_GameObject: {fileID: 771268138}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: ce156a7772e57df45ae8a09d12612eb4, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -761,6 +762,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
+--- !u!114 &771268143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 771268138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5e7f6b4163b9824dbbd6494327bdf95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1609860203
 GameObject:
   m_ObjectHideFlags: 0
